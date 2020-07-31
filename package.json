@@ -1,0 +1,24 @@
+{
+  "name": "gzcloud-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rackyz/hstigger-vue-admin.git"
+  },
+  "keywords": [
+    "hstigger"
+  ],
+  "author": "rackyz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rackyz/hstigger-vue-admin/issues"
+  },
+  "homepage": "https://github.com/rackyz/hstigger-vue-admin#readme"
+}

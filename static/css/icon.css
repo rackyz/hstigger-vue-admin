@@ -1,0 +1,23 @@
+
+    [class*=" el-icon-lx"], [class^=el-icon-lx] {
+        font-family: lx-iconfont!important;
+    }
+
+
+    .iconfont{
+        font-size:20px;
+        position: relative;
+        top:-0.1rem;
+    }
+
+    .circle-icon{
+        font-size:20px;
+        width:30px;
+        height:30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border:1px solid #aaa;
+        color:#aaa;
+    }

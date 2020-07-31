@@ -1,0 +1,4 @@
+"select1":{"label":"纯文本选择", "control":"input","option":{"options":["苹果","香蕉","橘子","西瓜"]}},
+"select2":{"label":"纯文本选择(多选)", "control":"input","option":{"options":["苹果","香蕉","橘子","西瓜"]}},
+"select3":{"label":"纯文本选择(输出序号)", "control":"input","option":{"options":["苹果","香蕉","橘子","西瓜"]}},
+"select4":{"label":"对象ID选择","control":"input","option":{"options":[{"id":"S1",label:"苹果"},{"id":"S2","label":"西瓜"}]}}
