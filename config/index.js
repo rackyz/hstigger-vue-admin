@@ -6,12 +6,10 @@ const path = require('path')
 
 module.exports = {
   dev: {
-
-    // Paths
-    assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
-    proxyTable: {
-    
+      // Paths
+      assetsSubDirectory: 'static',
+      assetsPublicPath: '/',
+      proxyTable: {
     },
     // Various Dev Server settings
     host: '192.168.14.40', // can be overwritten by process.env.HOST
@@ -41,7 +39,7 @@ module.exports = {
     // just be aware of this issue when enabling this option.
     cssSourceMap: false,
   },
-
+ 
   build: {
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),
