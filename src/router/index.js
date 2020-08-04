@@ -15,22 +15,6 @@ let router = new Router({
             component: resolve => require(['@pages/login.vue'], resolve),
         },
         {
-            path: '/index',
-            component: resolve => require(['@pages/index.vue'], resolve),
-            children:[
-                {
-                    path: '/dev',
-                    component: resolve => require(['@pages/dev.vue'], resolve),
-                        meta: {
-                            color: 'dark'
-                        },
-                    children:[
-                        
-                    ]
-                }
-            ]
-        },
-        {
             path: '*',
             redirect: '/'
         }
